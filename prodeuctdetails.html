@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>E-commerce</title>
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100&display=swap"
+            rel="stylesheet">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+<body>
+    
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="https://image.shutterstock.com/image-vector/s-brush-stroke-letter-logo-260nw-715074679.jpg"
+                        width="100px"></a>
+                </div>
+                <nav>
+                    <ul id="menu-items">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+            <a href="cartdetails.html"><img src="https://image.flaticon.com/icons/png/512/126/126083.png" height="30px" width="30px"
+                    alt="cart"></a>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png" alt="menu" class="menu-icon" onclick="toggle()">
+            </div>
+        </div>
+
+        <div class="small-container single-product">
+            <div class="row">
+                <div class="col-2">
+                    <img src="https://static.toiimg.com/photo/70072353.cms" width="100%" id="product-img">
+                    <div class="small-img-row">
+                        <div class="small-img-col">
+                            <img src="https://static.toiimg.com/photo/70072353.cms" width="100%" class="small-img">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="https://static.toiimg.com/photo/70072353.cms" width="100%" class="small-img">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="https://static.toiimg.com/photo/70072353.cms" width="100%" class="small-img">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="https://static.toiimg.com/photo/70072353.cms" width="100%" class="small-img">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-2">
+                    <p>Home/Mobile</p>
+                    <h1>Oppo F11</h1>
+                    <h4>$250.00</h4>
+                    <select>
+                        <option>Select</option>
+                        <option>64GB</option>
+                        <option>128GB</option>
+                        <option>256GB</option>
+                    </select>
+                    <input type="number" value="1">
+                    <a href="" class="btn">Add to Cart</a>
+                    <h3>Product Detail</h3>
+                    <br>
+                    <p> Very good mobile with long lasting<br>battery performance at cheap cost.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="small-container">
+            <div class="row row-2">
+                <h2>Related Products</h2>
+                <p>View More</p>
+            </div>
+        </div>
+
+    <div class="small-container">
+        <div class="row">
+            <div class="col-4">
+                <img src="https://static.toiimg.com/photo/70072353.cms" alt="">
+                <h4>Oppo F11</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Price:: </p>
+            </div>
+            <div class="col-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmdAjYVWjEgp9XHCmoFPaNXsBonq_xkEkZpQ&usqp=CAU" alt="">
+                <h4>iPhone 11</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$300.00</p>
+            </div>
+            <div class="col-4">
+                <img src="https://www.reliancedigital.in/medias/Samsung-EF-ZG980CLE-Mobile-Cases-491666944-i-1-1200Wx1200H?context=bWFzdGVyfGltYWdlc3w4NTE1NXxpbWFnZS9qcGVnfGltYWdlcy9oZmIvaDg1LzkzMTc0NDQzMjEzMTAuanBnfDNiY2VhMzA5OTYyN2U1ZjgyMzkyYmNiMzMwZjNlMWM4NTMzMjcwMTUwOTc4YzM2Yzc5MjliMDJmMWUxNmE5NWM" alt="">
+                <h4>Galaxy S20</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$270.00 </p>
+            </div>
+            <div class="col-4">
+                <img src="https://i.gadgets360cdn.com/large/vivo_v20_image_1_1602576120529.jpg?downsize=950:*&output-quality=80" alt="">
+                <h4>Vivo V20</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$300.00 </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download App</h3>
+                    <p>Download here for android and ios </p>
+                   <img src="https://secureservercdn.net/198.71.233.179/u7y.d2e.myftpupload.com/wp-content/uploads/2019/12/google-play-logo-ios-9.png" width="200px" alt=""> 
+                </div>
+                <div class="footer-col-2">
+                    <img src="https://image.shutterstock.com/image-vector/s-brush-stroke-letter-logo-260nw-715074679.jpg" alt="image">
+                    <p>Mobile of any kind get from this store with the cheapest and best offers.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful link</h3>
+                    <ul>
+                        <li>Coupans</li>
+                        <li>Coupans</li>
+                        <li>Coupans</li>
+                        <li>Coupans</li>    
+                    </ul>                    
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Twitter</li>
+                        <li>Facebook</li>
+                        <li>Youtube</li>
+                        <li>LinkedIn</li>    
+                    </ul>                    
+                </div>
+            </div>
+            <hr>
+            <p class="copyright"> CopyRight 2021 NewWebsite</p>
+        </div>
+    </div>
+
+    <script>
+        var menu = document.getElementById("menu-items");
+        menu.style.maxHeight="0px";
+
+        function toggle(){
+            if(menu.style.maxHeight=="0px"){
+                menu.style.maxHeight="200px";
+            }
+            else menu.style.maxHeight="0px";
+        }
+
+        var productimg = document.getElementById("product-img");
+        var smallimg = document.getElementsByClassName("small-img");
+        smallimg[0].onclick = function(){
+            productimg.src = smallimg[0].src;
+        }
+
+    </script>
+
+</body>
+
+</html>
